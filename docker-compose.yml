@@ -4,4 +4,4 @@ services:
   detection-server:
     image: detection-server
     ports:
-      - "5000:5000"
+      - "80:5000"
