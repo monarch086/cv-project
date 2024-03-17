@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  detection-server:
+    image: detection-server
+    ports:
+      - "5000:5000"
